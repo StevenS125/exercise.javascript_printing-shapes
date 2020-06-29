@@ -1,11 +1,22 @@
 function getLine(length) {
     // TODO - write method definition here
+    var star = '*';
+    for (let index = 0; index < length -1; index++) {
+        star = star + '*';
+        
+    }
+    console.log(
+`Shape: 
+${star}`)
+
 }
 
 
 
 function getBox(width, height) {
     // TODO - write method definition here
+    var star = '*';
+
 }
 
 
