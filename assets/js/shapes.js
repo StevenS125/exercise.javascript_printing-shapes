@@ -62,6 +62,9 @@ function getCheckerboard(width, height) {
     let output = "";
     let lastChar = "\xa0"
 
+    for (let index = 0; index < height; index++) {
+    
+
     for (let index = 0; index < width; index++) {
 
         if (lastChar == "\xa0") {
@@ -71,6 +74,8 @@ function getCheckerboard(width, height) {
             output = output += star;
             lastChar = space
         }
+    }
+    output = output + "\n";
     }
 
     return output
